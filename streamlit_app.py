@@ -6,11 +6,11 @@ import google.generativeai as genai
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Streamlit App UI
-st.title("Generative AI with Streamlit")
-st.write("Use Google Generative AI to get responses based on your prompt.")
+st.title("Ever AI")
+st.write("Use enerative AI to get responses based on your prompt.")
 
 # Prompt input field
-prompt = st.text_input("Enter your prompt:", "most powerful free tts?")
+prompt = st.text_input("Enter your prompt:", "Best alternatives to javascript?")
 
 # Button to generate response
 if st.button("Generate Response"):
